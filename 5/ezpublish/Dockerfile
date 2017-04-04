@@ -10,4 +10,4 @@ RUN cp /etc/apache2/mods-enabled/fastcgi.conf /etc/apache2/mods-enabled/fastcgi.
 COPY fastcgi.conf /etc/apache2/mods-enabled/fastcgi.conf
 WORKDIR /var/www/html
 EXPOSE 80
-ENTRYPOINT service php5-fpm restart && service apache2 restart && chown www-data.www-data /var/run/php5-fpm.sock && bash
+#ENTRYPOINT service php5-fpm restart && service apache2 restart && chown www-data.www-data /var/run/php5-fpm.sock
