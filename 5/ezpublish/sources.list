@@ -1,0 +1,5 @@
+deb http://deb.debian.org/debian jessie main contrib non-free
+deb http://deb.debian.org/debian jessie-updates main contrib non-free
+# deb [arch=amd64,i386,ppc64el] http://fr.mirror.babylon.network/mariadb/repo/10.1/debian jessie main
+# deb-src [arch=amd64,i386,ppc64el] http://fr.mirror.babylon.network/mariadb/repo/10.1/debian jessie main
+deb http://security.debian.org jessie/updates main contrib non-free
